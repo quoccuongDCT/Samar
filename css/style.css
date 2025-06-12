@@ -1,0 +1,211 @@
+body {
+    margin          : 0;
+    background-color: #fff;
+    font-family     : "Roboto", sans-serif;
+    font-weight     : 400;
+    line-height     : 1.6;
+}
+
+/* header */
+.container {
+    max-width: 1199px;
+    margin   : auto;
+}
+
+.header {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+}
+
+.header_content {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    height         : 135.5px;
+}
+
+.header__content span {
+    display: inline-block;
+}
+
+.header_content i {
+    font-size     : 9px;
+    margin-top    : -3px;
+    vertical-align: middle;
+}
+
+.header_content li {
+    padding: 55px 15px;
+}
+
+.header_content li a {
+    color         : #070120;
+    text-transform: capitalize;
+    font-size     : 15px;
+    font-weight   : 550;
+    transition    : all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display    : flex;
+    align-items: center;
+}
+
+nav ul {
+    display     : flex;
+    margin-right: 30px;
+    list-style  : none;
+}
+
+li {
+    display     : list-item;
+    text-align  : -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    outline         : none;
+    padding         : 20px 35px;
+    font-size       : 15px;
+    font-weight     : 500;
+    background-size : 200%;
+    border-radius   : 30px;
+    color           : #fff;
+    transform       : all 0.5s;
+    cursor          : pointer;
+    border          : 1px solid transparent;
+    outline         : none;
+    text-transform  : uppercase;
+    line-height     : 1.2;
+
+}
+
+/* saCarousel */
+.saCarousel {
+    padding-top        : 180px;
+    overflow           : hidden;
+    background-image   : url(../images/pic2.png);
+    background-position: top;
+    background-size    : 100%;
+}
+
+.saCarousel-conten {
+    display    : flex;
+    align-items: center;
+
+}
+
+.text-we {
+    font-size  : 22px;
+    color      : #f55f8d;
+    margin     : 0px 0px 20px;
+    font-weight: 600;
+}
+
+.saCarousel-conten h2 {
+    font-size  : 70px;
+    margin     : 0px 0px 20px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.text-dev {
+    font-size: 18px;
+    color    : #636363;
+    margin   : 0px 0px 20px;
+}
+
+.saCarousel-conten ul {
+    margin-bottom: 20px;
+    padding      : 0px 0px 0px 0px;
+}
+
+.saCarousel-conten ul li {
+    list-style: none;
+}
+
+.saCarousel-conten li {
+    padding  : 10px 5px 10px 0px;
+    font-size: 20px;
+}
+
+.saCarousel-conten i {
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    color           : white;
+    font-size       : 24px;
+    margin          : 0px 10px 0px 0px;
+    border          : 1px solid transparent;
+    border-radius   : 35px;
+    font-weight     : 900;
+    text-align      : center;
+    width           : 35px;
+    height          : 35px;
+    line-height     : 35px;
+    margin-right    : 10px;
+}
+
+.saCarousel_right {
+    width: 40%;
+}
+
+.saCarousel_left {
+    width: 60%;
+}
+
+.saCarousel_banner {
+    width      : 570px;
+    margin-left: 50px;
+}
+
+.saCarousel_banner img {
+    max-width: 100%;
+    display  : block;
+}
+
+/* Services */
+.Services {
+    padding-top        : 115px;
+    overflow           : hidden;
+    background-image   : url(../images/pic2.png);
+    background-position: top;
+    background-size    : 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.title p {
+    color      : #f55f8d;
+    font-size  : 22px;
+    margin     : 0px 0px 20px;
+    font-weight: 600;
+}
+
+.title h2 {
+    font-size  : 70px;
+    margin     : 0px 0px 20px;
+    font-weight: 600;
+}
+
+.Services-conten{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 0px 0px;
+}
+
+.Services h3{
+    text-align: center;
+}
+
+.Services p{
+    text-align: center;
+}
